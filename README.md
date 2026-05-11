@@ -78,5 +78,5 @@ Then open `report.html` in your browser to see the results.
 
 \## Sample Output
 
-!\[Report Screenshot](screenshot.png)
+!\[Report Screenshot](Screenshot.png)
 
