@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Email Triage Report</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f0f2f5; padding: 30px; }
+  h1 { color: #2c3e50; }
+  .email-card { background: white; border-radius: 10px; padding: 20px; margin-bottom: 20px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 5px solid #3498db; }
+  .meta { display: flex; gap: 15px; margin-bottom: 10px; align-items: center; }
+  .badge { padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: bold; color: white; }
+  .subject { font-size: 18px; font-weight: bold; color: #2c3e50; }
+  .sender { color: #7f8c8d; font-size: 14px; margin-bottom: 8px; }
+  .summary-box { background: #eaf4fb; border-radius: 6px; padding: 10px; margin: 10px 0; font-size: 14px; }
+  .reply-box { background: #f9f9f9; border: 1px solid #ddd; border-radius: 6px;
+               padding: 12px; font-size: 13px; white-space: pre-wrap; margin-top: 10px; }
+  .reply-label { font-weight: bold; color: #555; margin-top: 12px; }
+</style>
+</head>
+<body>
+<h1>📬 AI Email Triage Report</h1>
+<p style="color:#555">Processed by AI Email Agent &mdash; 5 emails analyzed</p>
+
+<div class="email-card" style="border-left-color:#e74c3c">
+  <div class="subject">💰 Quote Request – Roofing for New Home</div>
+  <div class="sender">From: john.smith@buildright.com.au</div>
+  <div class="meta">
+    <span class="badge" style="background:#e74c3c">High Priority</span>
+    <span class="badge" style="background:#8e44ad">Quote Request</span>
+  </div>
+  <div class="summary-box">📝 <strong>Summary:</strong> John Smith is requesting a quote for roofing services for his new single-storey home in Brisbane</div>
+  <div class="reply-label">✉️ Suggested Reply:</div>
+  <div class="reply-box">Dear John, thank you for considering our company for your roofing needs. We'd be happy to provide you with a quote for your new home in Brisbane. Could you please provide us with more details such as the type of roofing material you're interested in and your preferred timeline for the project? We'll get back to you with pricing and availability as soon as possible. Best regards, [Your Company Name]</div>
+</div>
+
+<div class="email-card" style="border-left-color:#e74c3c">
+  <div class="subject">😠 Complaint – Unfinished Work</div>
+  <div class="sender">From: sarah.jones@gmail.com</div>
+  <div class="meta">
+    <span class="badge" style="background:#e74c3c">High Priority</span>
+    <span class="badge" style="background:#8e44ad">Complaint</span>
+  </div>
+  <div class="summary-box">📝 <strong>Summary:</strong> The client is unhappy with the unfinished work on their cladding job, citing exposed screws and misaligned panels</div>
+  <div class="reply-label">✉️ Suggested Reply:</div>
+  <div class="reply-box">Dear Sarah, thank you for bringing this to our attention. We apologize for the inconvenience and will send a team to rectify the issues as soon as possible. Please let us know a suitable time for us to return and complete the work to your satisfaction. Regards, [Company Name]</div>
+</div>
+
+<div class="email-card" style="border-left-color:#e74c3c">
+  <div class="subject">🤝 Partnership Inquiry</div>
+  <div class="sender">From: procurement@commercialbuilds.com.au</div>
+  <div class="meta">
+    <span class="badge" style="background:#e74c3c">High Priority</span>
+    <span class="badge" style="background:#8e44ad">Partnership Inquiry</span>
+  </div>
+  <div class="summary-box">📝 <strong>Summary:</strong> Commercial construction firm inquiring about potential partnership for roofing subcontracting services in NSW and VIC</div>
+  <div class="reply-label">✉️ Suggested Reply:</div>
+  <div class="reply-box">Dear procurement@commercialbuilds.com.au, thank you for considering our company for your roofing subcontracting needs. We would be delighted to discuss a potential partnership and explore how we can support your upcoming projects in NSW and VIC. Please let us know a convenient time for a call to further discuss the details. Best regards, [Your Company Name]</div>
+</div>
+
+<div class="email-card" style="border-left-color:#e74c3c">
+  <div class="subject">🧾 Invoice Question</div>
+  <div class="sender">From: mike.t@hotmail.com</div>
+  <div class="meta">
+    <span class="badge" style="background:#e74c3c">High Priority</span>
+    <span class="badge" style="background:#8e44ad">Billing Issue</span>
+  </div>
+  <div class="summary-box">📝 <strong>Summary:</strong> The client is questioning the difference in amount between the quote and the invoice</div>
+  <div class="reply-label">✉️ Suggested Reply:</div>
+  <div class="reply-box">Dear Mike, thank you for bringing this to our attention. We apologize for the discrepancy and would like to investigate this further. Could you please provide us with a copy of the original quote so we can compare it with the invoice? We will look into this matter and get back to you as soon as possible. Best regards, [Company Name]</div>
+</div>
+
+<div class="email-card" style="border-left-color:#27ae60">
+  <div class="subject">🚫 You have WON a prize!!!</div>
+  <div class="sender">From: noreply@spam-ads.com</div>
+  <div class="meta">
+    <span class="badge" style="background:#27ae60">Low Priority</span>
+    <span class="badge" style="background:#8e44ad">Spam</span>
+  </div>
+  <div class="summary-box">📝 <strong>Summary:</strong> The email claims the company has won a prize and attempts to prompt action with a link</div>
+  <div class="reply-label">✉️ Suggested Reply:</div>
+  <div class="reply-box">NONE</div>
+</div>
+</body></html>
