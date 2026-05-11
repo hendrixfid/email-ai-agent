@@ -1,4 +1,4 @@
-\# AI Email Triage Agent
+**AI Email Triage Agent**
 
 
 
@@ -8,7 +8,7 @@ for incoming business emails — built as a demo for AI automation roles.
 
 
 
-\## What It Does
+**What It Does**
 
 \- Reads a simulated business inbox
 
@@ -22,7 +22,7 @@ for incoming business emails — built as a demo for AI automation roles.
 
 
 
-\## Tech Stack
+**Tech Stack**
 
 \- Python
 
@@ -32,10 +32,7 @@ for incoming business emails — built as a demo for AI automation roles.
 
 
 
-\## How to Run
-
-
-
+**How to Run**
 1\. Clone the repository
 
 2\. Create a virtual environment and activate it
@@ -48,7 +45,7 @@ for incoming business emails — built as a demo for AI automation roles.
 
 
 
-\### Setup
+**Setup**
 
 ```bash
 
@@ -62,7 +59,7 @@ pip install groq python-dotenv
 
 
 
-\### Run
+Run
 
 ```bash
 
@@ -76,7 +73,8 @@ Then open `report.html` in your browser to see the results.
 
 
 
-\## Sample Output
+**Sample Output:**<img width="1918" height="945" alt="Screenshot" src="https://github.com/user-attachments/assets/4727c38d-b782-400b-8a92-5a9626298480" />
 
-!\[Report Screenshot](Screenshot.png)
+
+
 
